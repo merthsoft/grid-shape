@@ -1,5 +1,7 @@
 # Grids for RimWorld 1.7
 
+Repository: [merthsoft/grid-shape](https://github.com/merthsoft/grid-shape)
+
 Standalone extraction of Designator Shapes grid and inverse-grid tools. Select a supported build, mine, or zone designator, then select a grid style in the vanilla drawing palette. Presets 3–7 retain fixed equal spacing. Custom styles use independent X/Z spacing in Options → Mod Settings → Grids (1–100, default 6/6). Lines are always one cell thick.
 
 Spacing means distance between lines, not interior size. Grid lines anchor at minimum X and maximum Z. Inverse-grid interiors anchor at minimum X/Z, with a closing boundary at maximum X/Z, exactly as the source primitives do. Inverse is not simply the complement of grid. At spacing 1 inverse produces no cells. Drag direction does not alter geometry. Degenerate grid rectangles produce lines/points; inverse produces no cells when either dimension is zero. Geometry stays within the drag rectangle; vanilla designator validation handles map bounds and unsuitable cells.
@@ -21,4 +23,5 @@ Code by Merthsoft. Grid icons by Halno. Extracted from Designator Shapes (Source
 
 Original project also credits Jacbo (freeform line), 祂 (Chinese translation), and Lisanhu (space fix); those features/translations are not included. License: Unlicense, retained in LICENSE.
 
-Automated checks compare selected cells against an independent partition/line implementation of the original algorithms. Gameplay, palette interaction, settings persistence, and visual map-edge validation remain manual checks.
+Automated checks compare selected cells against an independent partition/line implementation of the original algorithms. The coordinator also verified all 12 styles register in RimWorld 1.7, preset 3 selects the expected 16 cells, inverse preset 3 selects four cells, bounds/duplicate checks pass, and the mod coexists with all standalone shape mods. Settings editing/persistence and visual palette interaction still require manual checks.
+

@@ -1,9 +1,12 @@
 <ModMetaData>
 <name>Grids</name>
 <author>Merthsoft; art by Halno</author>
+<url>https://github.com/merthsoft/grid-shape</url>
+<modIconPath IgnoreIfNoMatchingField='True'>UI/Commands/Grids/grid</modIconPath>
 <packageId>Merthsoft.DesignatorShapes.Grids</packageId>
 <supportedVersions><li>1.7</li></supportedVersions>
 <incompatibleWith><li>Merthsoft.DesignatorShapes</li></incompatibleWith>
 <description>Standalone grid and inverse-grid drawing styles for the RimWorld 1.7 drawing palette. Includes spacing presets 3–7 and independent custom X/Z spacing in Mod Settings. No dependency on Designator Shapes. Code extracted from Designator Shapes by Merthsoft; art by Halno. Unlicense.
 Full Designator Shapes replaces the drag-cell pipeline, bypassing vanilla drawing styles while its controls are active; use one or the other.</description>
 </ModMetaData>
+
