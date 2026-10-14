@@ -1,0 +1,6 @@
+<LanguageData>
+<Merthsoft_Grids_Title>Grids</Merthsoft_Grids_Title>
+<Merthsoft_Grids_Help>Choose custom grid or custom inverse grid in the drawing palette to use these spacings. Presets keep their fixed spacing. Lines remain one cell thick. Spacing is the distance between grid lines; inverse grid selects the interiors between them.</Merthsoft_Grids_Help>
+<Merthsoft_Grids_X>X spacing (1–100 cells)</Merthsoft_Grids_X>
+<Merthsoft_Grids_Z>Z spacing (1–100 cells)</Merthsoft_Grids_Z>
+</LanguageData>
