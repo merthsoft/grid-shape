@@ -1,5 +1,14 @@
 # Grids for RimWorld 1.7
 
+<!-- merthsoft-download -->
+## Download
+
+[Download grid-shape.zip](https://merthsoft.com/RimWorld/grid-shape.zip) — RimWorld 1.7 release.
+
+The archive includes older supported version folders where available. Extract the mod folder into RimWorld's `Mods` directory.
+<!-- /merthsoft-download -->
+
+
 Repository: [merthsoft/grid-shape](https://github.com/merthsoft/grid-shape)
 
 Standalone extraction of Designator Shapes grid and inverse-grid tools. Select a supported build, mine, or zone designator, then select a grid style in the vanilla drawing palette. Presets 3–7 retain fixed equal spacing. Custom styles use independent X/Z spacing in Options → Mod Settings → Grids (1–100, default 6/6). Lines are always one cell thick.
